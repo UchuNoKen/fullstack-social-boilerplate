@@ -3,5 +3,5 @@
 
 const helpers = require("./helpers");
 
-const total = sum(10, 200);
+const total = helpers.sum(10, 200);
 console.log("TOTAL: ", total);
