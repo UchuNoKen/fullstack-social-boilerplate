@@ -1,8 +1,7 @@
-console.log("hello from node");
+// console.log("hello from node");
+// console.log("PROCESS: ", process);
 
-function sum(a, b) {
-  return a + b;
-}
+const helpers = require("./helpers");
 
 const total = sum(10, 200);
 console.log("TOTAL: ", total);
